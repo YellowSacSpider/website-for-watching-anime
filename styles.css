@@ -1,0 +1,220 @@
+html,body {
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    background-color: orange;
+}
+
+
+.navbar{
+    z-index: 300;
+    background-color: black;
+    padding: 20px;
+    font-family: "Sofia", sans-serif;
+}
+
+
+.logo{
+    z-index: 0;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.logo img{
+    border-radius: 20px;
+}
+
+.container{
+    display: flex;
+}
+
+.container .text-1{
+    border-radius: 20px;
+    margin-top: 10%;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.new-anime{
+    z-index: -1;
+    margin-top: 20%;
+    margin-left: 80%;
+    padding: 10px;
+    padding-left: 50px;
+    background-color: white;
+    border-radius: 20px;
+    position: fixed;
+}
+
+.new-anime img{
+    border-radius: 20px;
+}
+
+.nav-container{
+    z-index: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.nav-container li{
+    color:white;
+}
+
+.nav-container a{
+    padding: max(20px);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav-container a:hover{
+    padding: 25px;
+    background-color: white;
+    color:black;
+}
+
+.nav-container a:active{
+    padding: 20px;
+    background-color: white;
+    color:black;
+}
+
+.offert-container{
+    margin-top: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.element, .element1{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    font-family: "Sofia", sans-serif;
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 300px;
+    background-color: rgb(220, 219, 219);
+    border-radius: 20px;
+    margin-left: 1rem;
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 200px;
+    max-height: 200px;
+    transition: 1s;
+}
+
+.button{
+    margin-top: 30%;
+    min-width: 50px;
+    max-width: 50px;
+    margin-left: 36%;
+    padding: max(10px);
+    cursor: pointer;
+    background-color: rgba(0, 255, 255, 0.478);
+    transition: 0.3s;
+}
+
+.button:hover{
+    padding: 15px;
+    box-shadow: 5px 10px #888888;
+}
+
+.button:active{
+    padding: 10px;
+    color:black;
+}
+
+
+
+.img-element img{
+    width: 150px;
+    height: 150px;
+    border-style: outset;
+    border-color: aqua;
+    border-radius: 100px;
+    transition: 0.3s;
+}
+
+.img-element img:hover{
+    width: 250px;
+    height: 250px;
+}
+
+.watch-box{
+    display: inline-block;
+    font-family: "Sofia", sans-serif;
+    background-color: rgb(220, 219, 219);
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.watch-info-columns{
+    display: flex;
+}
+
+.watch-info-columns h4{
+    margin-left: 5%;
+}
+
+.watch-info-columns h4:after{
+    content: "";
+    background-color: black;
+    padding-left: 2px;
+    margin-left: 50%;
+
+}
+
+.watch-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.episode{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: rgb(136, 136, 136);
+
+}
+
+.watch-content h4{
+    margin-left: 50px;
+}
+
+.watch-content img{
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+.line {
+    background-color: black;
+    height: 2px;
+    width: 250px;
+    margin-top: 10%;
+    border-radius: 100px;
+}
+
+.hidden{
+    display: none;
+}
+
+footer {
+    padding: 10px;
+    clear: both;
+    position: relative;
+    margin-top: 20%;
+    color: white;
+    background-color: black;
+}
